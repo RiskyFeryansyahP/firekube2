@@ -59,5 +59,5 @@ sudo yum check-update
 sudo yum -y install git
 
 installDockerCentos
-# installKubectl
-# installWksctl
+installKubectl
+installWksctl
