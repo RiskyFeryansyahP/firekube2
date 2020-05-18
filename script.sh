@@ -26,7 +26,7 @@ installDockerCentos() {
 
 # Install kubectl
 installKubectl() {
-    if [ $(kubectl version --client) ]; then
+    if [ $(kubectl version) ]; then
         echo "kubectl installed!"
     else
         echo "kubectl not installed!"
