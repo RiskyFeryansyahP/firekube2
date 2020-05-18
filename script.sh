@@ -22,7 +22,7 @@ installDockerCentos() {
     
 #     # Check Docker Version
 #     docker version
-# }
+}
 
 # Install kubectl
 installKubectl() {
