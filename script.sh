@@ -50,7 +50,7 @@ installWksctl() {
 #     tar xfz wksctl-0.8.1-linux-x86_64.tar.gz
 #     chmod +x wksctl
 #     sudo mv wksctl /usr/local/bin
-# }
+}
 
 # Check update centos
 sudo yum check-update
@@ -59,5 +59,5 @@ sudo yum check-update
 sudo yum -y install git
 
 installDockerCentos
-installKubectl
-installWksctl
+# installKubectl
+# installWksctl
