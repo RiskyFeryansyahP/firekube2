@@ -132,7 +132,7 @@ check_version footloose "${FOOTLOOSE_VERSION}"
 if [ "$(config_backend)" == "ignite" ]; then
     check_version ignite "${IGNITE_VERSION}"
 fi
-"${WKSCTL_VERSION}"
+check_version wksctl "${WKSCTL_VERSION}"
 
 log "Creating footloose manifest"
 jk generate -f config.yaml setup.js
