@@ -13,4 +13,4 @@ backend: docker
 controlPlane:
   nodes: 1
 workers:
-  nodes: 1
+  nodes: 2
